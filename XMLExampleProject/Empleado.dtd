@@ -1,0 +1,5 @@
+<!ELEMENT Empleado (nombre,fechaNacimiento,Puesto)>
+<!ATTLIST Empleado dni CDATA #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT Puesto (#PCDATA)>

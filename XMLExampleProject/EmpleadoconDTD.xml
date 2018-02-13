@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Explanation aboute the standalone argument 
+ https://bytes.com/topic/net/answers/553902-standalone-yes -->
+
+<!DOCTYPE Empleado SYSTEM "Empleado.dtd">
+<Empleado dni="303030">
+    <nombre>Juan</nombre>
+    <fechaNacimiento>1980-01-31</fechaNacimiento>
+    <Puesto>Jefe</Puesto>
+</Empleado>
