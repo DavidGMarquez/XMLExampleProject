@@ -1,0 +1,45 @@
+<Biblioteca>
+    <libro categoria="Miedo">
+        <autor>Soren Kierkegaard</autor>    
+        <titulo>Fear and Trembling</titulo>    
+        <precio>50.0</precio>
+    </libro>
+    <libro categoria="Novela">
+        <autor>Miguel de Unamuno</autor>    
+        <titulo>Niebla</titulo>    
+        <precio>40.0</precio>
+    </libro>
+    <libro categoria="Novela">
+        <autor>Miguel de Unamuno</autor>    
+        <titulo>La Tantula</titulo>    
+        <precio>23.0</precio>
+    </libro>
+    <libro categoria="Distopia">
+        <autor>George Orwell</autor>    
+        <titulo>1984</titulo>    
+        <precio>20.0</precio>
+    </libro>
+    <libro categoria="Cocina">
+        <autor>Giada De Laurentiis</autor>    
+        <titulo>Everyday Italian</titulo>    
+        <precio>31.0</precio>
+    </libro>
+    <libro categoria="Children">
+        <autor>J K. Rowling</autor>    
+        <titulo>Harry Potter</titulo>    
+        <precio>29.99</precio>
+    </libro>    
+    <libro categoria="Manual">
+        <autor>James McGovern</autor>
+        <autor>Per Bothner</autor>
+        <autor>Kurt Cagle</autor>
+        <autor>James Linn</autor>
+        <titulo>XQuery Kick Start</titulo>    
+        <precio>49.99</precio>
+    </libro>
+    <libro categoria="Manual">
+        <autor>Erik T. Ray</autor>    
+        <titulo>Learning XML</titulo>    
+        <precio>39.95</precio>
+    </libro>        
+</Biblioteca>
