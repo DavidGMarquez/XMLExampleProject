@@ -13,15 +13,11 @@ import javax.xml.xquery.XQException;
 import javax.xml.xquery.XQPreparedExpression;
 import javax.xml.xquery.XQResultSequence;
 
-/**
- *
- * @author Sir_D
- */
 public class LauncherWithQueryFile {
 
     public static void main(String[] args) {
         try {
-
+            //Try with different Querys Query_1, Query_2, ...
             File queryFile = new File("Query_4.xqy"); //
 
             XQDataSource xqjd = new SaxonXQDataSource();
