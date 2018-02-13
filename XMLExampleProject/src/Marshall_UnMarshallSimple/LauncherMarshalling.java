@@ -5,11 +5,7 @@ package Marshall_UnMarshallSimple;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-
 import java.io.File;
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.bind.JAXBContext;
@@ -22,19 +18,17 @@ import javax.xml.bind.Marshaller;
  */
 public class LauncherMarshalling {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // Creamos el objeto
-        EmpleadoBasico empleado = new EmpleadoBasico("Juan",  "Jefe","303030");     
+        EmpleadoBasico empleado = new EmpleadoBasico("Juan", "Jefe", "303030");
+        //El ID no se va a serializar
         empleado.setID_Clase(11);
         try {
             // Creamos el JAXBContext
             JAXBContext jAXBContext = JAXBContext.newInstance(EmpleadoBasico.class);
             // Creamos el JAXBMarshaller
             Marshaller marshaller = jAXBContext.createMarshaller();
-            //Opcional formateo
+            //Opcional formateo bonito
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
 
             //Escribir el resultado por pantalla
